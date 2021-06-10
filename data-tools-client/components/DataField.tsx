@@ -2,7 +2,7 @@ import React from "react";
 
 import { Box, Typography } from "@material-ui/core";
 
-interface Props {
+type Props = {
   title: string;
   content: string;
   icon: React.ReactNode;
